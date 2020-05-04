@@ -1,0 +1,259 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+ul
+{
+  list-style-type: none;
+}
+div.navbar
+{
+  position:fixed;
+  width: 6.5%;
+  background-color:white;
+  height: 100vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  }
+.fab fa-facebook
+{
+  font-size: 155px;
+}
+.bottom a
+{
+  border:1px solid black;
+  border-radius: 50%;
+}
+div.bg
+{
+  position: relative;
+  width: 98.7vw;
+  height: 125vh;
+  background-color: #4830e6;
+  background-image: linear-gradient(27deg,#67ae8c,#349a9b 65%,#0086aa);
+  background-repeat: no-repeat;
+  z-index: -1;
+  overflow: hidden;
+}
+div.top-right
+{
+  position: absolute;
+  top:5vh;
+  right: 0;
+  width: 250px;
+  height: 90px;
+  background-color: white;
+  padding-top: 14px;
+padding-right: 2.5vw;
+}
+div.top-right img,div.top-right p
+{
+  float:right;
+}
+div.top-right img
+{
+  position: relative;
+  top:2vh;
+  right: 0.5vw;
+}
+div.top-right span
+{
+  color:#919197;
+  font-size: 21px;
+  font-weight: 700;
+  font-family: 'Dosis', sans-serif;
+  word-spacing: 5px;
+}
+div.top-right p
+{
+  color:black;
+  font-weight: 700;
+  font-family: 'Dosis', sans-serif;
+  font-size: 22px;
+}
+div.outline
+{
+  position: absolute;
+  right:0;
+  width:400px;
+  width:400px;
+  border:3px solid rgba(255, 255, 255, 0.25);
+  border-top: 0;
+  border-right: 0;
+  padding:0px 15vw 30vh 10vw;
+}
+div.outline1
+{
+  width:230px;
+  height: 230px;
+  border:3px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  position: relative;
+}
+div.intro
+{
+  position: absolute;
+  top:57%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.intro img.john
+{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+div.intro h1
+{
+  color: white;
+  font-size: 10vh;
+  word-spacing: 5px;
+  font-family: 'Dosis', sans-serif;
+  padding-top: 7vh;
+}
+div.bottom-arc
+{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  right:-13.5vw;
+  bottom:-40vh;
+  border:3px solid rgba(255, 255, 255, 0.25);
+  border-radius: 100%;
+}
+div.container
+{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.container h1.light
+{
+  font-size: 100px;
+  color: rgba(241, 241, 247, 1);
+  position: absolute;
+  z-index: -1;
+  letter-spacing: 17px;
+}
+div.container h1.heading
+{
+  font-size: 50px;
+  padding-top: 9vh;
+  padding-left: 5vw;
+}
+div.grid-container
+{
+  width: 1200px;
+  height: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  padding: 65px;
+  overflow: hidden;
+  margin-left: 10vw;
+  margin-top: 10vh;
+}
+div.one img
+{
+  margin-bottom: 5vh;
+}
+div.one h3
+{
+  font-size: 23px;
+  margin: 20px 0 15px;
+}
+div.one p
+{
+  font-size: 16px;
+  color: #515157;
+  margin: 0 0 10px;
+}
+div.one .lit,div.grid-container2 .lit
+{
+  font-size: 13px;
+  color:#919197;
+}
+
+div.container2
+{
+  width: 100%;
+  background-color: #F8FBFD;
+}
+div.container2 h1.light
+{
+  font-size: 100px;
+  color: rgba(241, 241, 247, 1);
+  position: relative;
+  z-index: 1;
+  letter-spacing: 17px;
+  margin-left: 8vw;
+}
+div.container2 h1.heading
+{
+  font-size: 50px;
+  padding-left: 11.5vw;
+  position: relative;
+  bottom: 10vh;
+  z-index: 1;
+}
+div.grid-container2
+{
+  width: 79.5%;
+  margin-left:auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 550px 550px;
+  grid-gap: 3vh;
+}
+div.grid-container2 div.two
+{
+  height:300px;
+  background-color: white;
+}
+div.grid-container2 img
+{
+  margin-top: 4vh;
+  margin-left: 2vw;
+  border-radius: 50%;
+}
+div.grid-container2 h3
+{
+  font-size: 26px;
+  color:#121217;
+}
+div.grid-container2 p
+{
+  font-size: 16px;
+  color: #515157;
+}
+div.flex
+{
+float:right;
+margin-right: 3vw;
+}
+div.flex p
+{
+  padding-bottom: 2vh;
+}
+span.dot
+{
+  font-size: 30px;
+  vertical-align:bottom;
+}
+div.flex h3
+{
+  padding-bottom: 4vh;
+}
